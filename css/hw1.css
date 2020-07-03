@@ -1,0 +1,124 @@
+header{
+background-color: #B3B3B3;
+height: 150px;
+background-image: url('../images/flywheel.jpg');
+text-align: center;
+padding-bottom: 10px;
+}
+
+h1{
+color: #ffffff;
+text-align: center;
+text-transform: uppercase;
+font-size: 20px;
+padding-top: 30px;
+padding-bottom: 25px;
+}
+
+section{
+background-color: #ffffff;
+}
+
+h2, p {
+	padding-left: 210px;
+	font-size: 18px;
+}
+h2{
+color: #000000;
+text-transform: inherit;
+font-size: 30px
+}
+nav a{
+background-color: #cccccc6b;
+color: #000000;
+}
+.active {
+	color: #000000;
+}
+
+a{
+color: #000000;
+text-align: center;
+padding: 15px 60px 15px 60px;
+margin-right: 60px;
+border-radius: 5px;
+text-decoration: none;
+
+}
+a:hover {
+	background-color: #ffffff;
+	color: #0b07ed;
+
+}
+.left {
+	float: left;
+	height: 1000px;
+	background-color: #8b8d15;
+	margin-top: -25px;
+}
+
+img{
+display: block;
+width: 150px;
+height: 100px;
+border: 1.5px solid;
+margin: 25px 25px 25px 25px;
+}
+.right {
+	padding-left: 2px;
+}
+
+table {
+    padding: 2%;
+    margin: 0 auto;
+    line-height: 50px;
+    width: 65%;
+    padding-bottom: 5%;
+}
+
+/* Table Header Styling */
+th {
+    background-color: 	#9ACD32;
+    padding: 2%;
+    font-variant: small-caps;
+    font-size: 100%;
+    color: #ffffff;
+    line-height: 40px;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 2px solid #339933;
+}
+
+/*Make the table text in two columns to the right centered*/
+th, tr td {
+    text-align: center;
+}
+
+/*Make the table text in the column to the left left-aligned*/
+th:first-child, tr td:first-child {
+    text-align: left;
+}
+
+/* Set opacity of table rows*/
+tr td {
+    opacity: 0.6;
+}
+
+
+/*Change opacity of table rows when hovered over*/
+tr:hover td {
+    opacity: 1;
+    color: #339933;
+    font-weight: bold;
+    font-size:100%;
+    line-height: 60px;
+}
+
+/*Styling the table cells*/
+td {
+    background-color: #90EE90;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 90%;
+    border-bottom: 2px solid #ffffff;
+}
+
